@@ -9,8 +9,6 @@ defined('APPLICATION_ENV') ||
 $ruta = $_SERVER['DOCUMENT_ROOT']."/../application/";
 set_include_path(get_include_path() . PATH_SEPARATOR . $ruta);
 
-	
-	
 $configFile="../application/configs/config.ini";
 require_once ("../application/autoload.php");
 
